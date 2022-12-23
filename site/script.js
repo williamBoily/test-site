@@ -46,6 +46,11 @@ function initButtons() {
 		showScreen("screen-8");
 	};
 
+	document.querySelector("#btn-screen-8").onclick = function(){
+		hideScreen("screen-8");
+		showScreen("screen-1");
+	};
+
 }
 
 function clearScreen(screenId){
