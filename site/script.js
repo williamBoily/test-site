@@ -146,9 +146,8 @@ function screen4Answer(choice){
 }
 
 function addAnswer(targetId, textList) {
-	if(! Array.isArray(textList)){
-		textList = [textList];
-	}
+	clearScreen(targetId);
+	showScreen(targetId);
 
 	textList.forEach(text => {
 		let element = document.createElement('p');
