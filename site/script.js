@@ -66,7 +66,7 @@ function screen2Answer(choice){
 	switch (choice) {
 		case "pigeon":
 			textList.push("🐦 Un Pigeon!? WOW, ok, je ne m'attendais pas à ça.");
-			textList.push("J'imagine que c'est pour ta capacité à faire des départs rapides en plus ta démarche stylée et non ton envie insatiable de grignoter sans arrêt.");
+			textList.push("J'imagine que c'est pour ta capacité à faire des départs rapides en plus de ta démarche stylée et non ton envie insatiable de grignoter sans arrêt.");
 			textList.push("Je me demande ce que l'IA🤖  va penser de tout ca...");
 			break;
 		case "lion":
@@ -131,7 +131,7 @@ function screen4Answer(choice){
 		case "celebration":
 			textList.push("Célébration! ah, quel délice!");
 			textList.push("Le seul et unique biscuit surnommer le biscuit \"frustration\" par certain. Tellement il est bon, il peut balayer le sentiment de frustration.");
-			textList.push("La légende dit que des parents en mangeait devant leurs enfants en leur disant qu'ils n'avaient pas le droit car ils n'étaient pas assez frustré...");
+			textList.push("La légende dit que des parents en mangeaient devant leurs enfants en leur disant qu'ils n'avaient pas le droit car ils n'étaient pas assez frustré...");
 			textList.push("Histoire de fou 🤯 ca ne peut pas être vrai...");
 			break;
 	}
