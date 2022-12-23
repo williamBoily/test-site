@@ -67,22 +67,22 @@ function screen2Answer(choice){
 		case "pigeon":
 			textList.push("🐦 Un Pigeon!? WOW, ok, je ne m'attendais pas à ça.");
 			textList.push("J'imagine que c'est pour ta capacité à faire des départs rapides en plus de ta démarche stylée et non ton envie insatiable de grignoter sans arrêt.");
-			textList.push("Je me demande ce que l'IA🤖  va penser de tout ca...");
+			textList.push("Je me demande ce que l'IA🤖 va penser de tout ça...");
 			break;
 		case "lion":
 			textList.push("🦁 Un Lion, vraiment?");
 			textList.push("tu te considère le roi de ton entourage? Probablement avec raison!");
-			textList.push("oh oh, un instant, les premiers résultats de l'IA🤖  m'indique que ce serait plutôt ta crinière qui serait l'élément principal de ce choix. GrrrRRr!");
+			textList.push("oh oh, un instant, les premiers résultats de l'IA🤖 m'indique que ce serait plutôt ta crinière qui serait l'élément principal de ce choix. GrrrRRr!");
 			break;
 		case "ours":
 			text = "";
 			textList.push("🐻 Un Ours!");
-			textList.push("Majestueux! Sauvage! grognon! poilue!");
+			textList.push("Majestueux! Sauvage! grognon! poilu!");
 			textList.push("l'IA🤖 approuve à 100% ici, nous avons une concordance parfaite!");
 			break;
 		case "cochon":
 			textList.push("🐷 Oh.. Un cochon? ça doit être une erreur...");
-			textList.push("Attention, l'I.A🤖 semble voir une concordance: allure sympatique, humeur joviale, grognements spontannés. J'imagine que ca doit être vrai.🤷‍♂️");
+			textList.push("Attention, l'I.A🤖 semble voir une concordance: allure sympatique, humeur joviale, grognements spontannés. J'imagine que ça doit être vrai.🤷‍♂️");
 			textList.push("Il semble y avoir plus.. voyons voir.. oh! un faible pourcentage de ressemblance physique semble avoir été détecté! Je vais devoir revoir mon algorithme...🤔");
 			break;
 	}
@@ -102,7 +102,7 @@ function screen3Answer(choice){
 			break;
 		case "licorne":
 			textList.push("🦄 Une Licorne! Délicat et puissant, une combinaison magique.");
-			textList.push("Bon choix, mais MON Rudolph est encore meilleure qu'une licorne!");
+			textList.push("Bon choix, mais MON Rudolphe est encore meilleur qu'une licorne!");
 			textList.push("l'IA🤖 ne risque pas d'apprécier ce différent...");
 			break;
 		case "rudolphe":
@@ -126,13 +126,13 @@ function screen4Answer(choice){
 			break;
 		case "pepites":
 			textList.push("Pépites! Un grand classique.");
-			textList.push("Tremper dans un bon verre de lait froid(ou chaud, en Jo 😉) un délice!");
+			textList.push("Tremper dans un bon verre de lait froid(ou chaud pour Jo😉) un délice!");
 			break;
 		case "celebration":
 			textList.push("Célébration! ah, quel délice!");
-			textList.push("Le seul et unique biscuit surnommer le biscuit \"frustration\" par certain. Tellement il est bon, il peut balayer le sentiment de frustration.");
+			textList.push("Le seul et unique biscuit surnommé le biscuit \"frustration\" par certain. Tellement il est bon, il peut balayer le sentiment de frustration.");
 			textList.push("La légende dit que des parents en mangeaient devant leurs enfants en leur disant qu'ils n'avaient pas le droit car ils n'étaient pas assez frustré...");
-			textList.push("Histoire de fou 🤯 ca ne peut pas être vrai...");
+			textList.push("Histoire de fou 🤯 ça ne peut pas être vrai...");
 			break;
 	}
 
@@ -165,5 +165,3 @@ function addNextButton(fromElId, toElId, label = "Suivant") {
 }
 
 init();
-
-

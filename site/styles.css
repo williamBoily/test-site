@@ -11,6 +11,7 @@ body {
   color: #f9fafb;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: 20px;
 }
 
 
@@ -30,7 +31,7 @@ h1 {
   cursor: pointer;
   /* display: inline-block; */
   font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 20px;
   padding: 6px 16px;
