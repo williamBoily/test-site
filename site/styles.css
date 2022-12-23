@@ -1,3 +1,9 @@
+.buttons-container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
 body {
   margin: 0;
   padding: 2rem;
@@ -36,6 +42,7 @@ h1 {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+  width: 100%;
 }
 
 .button-green:focus:not(:focus-visible):not(.focus-visible) {
