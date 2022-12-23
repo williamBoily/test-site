@@ -103,7 +103,7 @@ function screen3Answer(choice){
 		case "dragon":
 			textList.push("🐉 🐲 Un Dragon! Je vois que nous avons à faire à un Alpha!");
 			textList.push("Rugissant, chaud et épineux! Tout un spécimen.");
-			textList.push("laisson l'IA🤖 déterminer ce que cela peut bien dire...");
+			textList.push("laissons l'IA🤖 déterminer ce que cela peut bien dire...");
 			break;
 		case "licorne":
 			textList.push("🦄 Une Licorne! Délicat et puissant, une combinaison magique.");
